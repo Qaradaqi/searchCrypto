@@ -5,7 +5,7 @@ export const Style = styled.div`
   position: relative;
   .search-box {
     .box {
-      width: 600px;
+      width: 800px;
       height: 44px;
       background: ${pallete.searchBG};
       border-radius: ${pallete.defaultBR};
@@ -26,12 +26,12 @@ export const Style = styled.div`
     background: ${pallete.whiteColor};
     box-shadow: 0 0 5px 0 rgba(239, 64, 86, 0.5);
     .result {
-      max-height: 80vh;
+      max-height: 75vh;
       overflow: hidden;
-      width: 600px;
-      padding: 0 16px;
+      width: 800px;
+      padding: 5px 16px;
       overflow-y: scroll;
-      scrollbar-color: ${pallete.grayColor} ${pallete.whiteColor};
+      scrollbar-color: ${pallete.primaryColor} ${pallete.whiteColor};
       scrollbar-width: thin;
       .input-box {
         width: 100%;

@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const Style = styled.div`
 .logo {
-  padding: 20px 0 10px;
+  padding: 10px 0;
   img {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
   }
 }
 `;

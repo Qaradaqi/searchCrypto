@@ -119,7 +119,7 @@ export default function Search() {
                     <span>symbol: </span>
                     <span>{item.symbol}</span>
                   </div>
-                  <div className="market-cap-rank ">
+                  <div className="market-cap-rank gap-5">
                     <span>market cap rank: </span>
                     <span>{item.market_cap_rank}</span>
                   </div>
@@ -143,11 +143,11 @@ export default function Search() {
           </div>
         </div>
         {isOpen && (
-          <div className="result-box flex align-center justify-center">
-            <div
-              ref={searchRef}
-              className="result flex flex-column align-start"
-            >
+          <div
+            ref={searchRef}
+            className="result-box flex align-center justify-center"
+          >
+            <div className="result flex flex-column align-start">
               <div className="input-box flex align-center justify-start gap-10">
                 <i className="fa-solid fa-magnifying-glass"></i>
                 <input
